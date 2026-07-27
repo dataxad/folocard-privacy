@@ -88,6 +88,17 @@ destination before sharing it. If you send a bundle to DataXad, it is used to
 investigate the issue and retained only as long as reasonably necessary for
 support, security, and legal obligations.
 
+### AI Response Reports
+
+When you choose **Report AI response**, Folocard prepares a bounded plain-text
+report containing the selected response, a message identifier, safety context,
+and available app version, build, and package details. Nothing is uploaded
+automatically. The operating system's share flow opens only after you confirm,
+and the destination you select receives the report. Reports sent to DataXad are
+used to investigate harmful or inappropriate output and improve safeguards, and
+are retained only as long as reasonably necessary for those purposes and legal
+obligations.
+
 ## Permissions
 
 Folocard can request access to the camera for card capture, the microphone for
