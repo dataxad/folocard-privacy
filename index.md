@@ -4,7 +4,7 @@
 
 **Developer:** DataXad
 
-**Privacy contact:** [sam@dataxad.com](mailto:sam@dataxad.com)
+**Privacy contact:** [feedback@folocard.com](mailto:feedback@folocard.com)
 
 Folocard is a privacy-first, first-touch mini CRM. Its core business-card
 capture, text recognition, contact storage, review, and drafting workflows are
@@ -92,12 +92,19 @@ support, security, and legal obligations.
 
 When you choose **Report AI response**, Folocard prepares a bounded plain-text
 report containing the selected response, a message identifier, safety context,
-and available app version, build, and package details. Nothing is uploaded
-automatically. The operating system's share flow opens only after you confirm,
-and the destination you select receives the report. Reports sent to DataXad are
-used to investigate harmful or inappropriate output and improve safeguards, and
-are retained only as long as reasonably necessary for those purposes and legal
-obligations.
+and available app version, build, and package details. Nothing is sent until you
+confirm **Send report**. After confirmation, Folocard sends the report directly
+to DataXad through FormSubmit, DataXad's report-delivery service provider. The
+HTTPS transfer is encrypted in transit. FormSubmit and the mail provider can
+also process ordinary network and delivery information, such as an IP address,
+as needed to deliver the report.
+
+DataXad uses these optional reports to investigate harmful or inappropriate
+output and improve safeguards. DataXad retains a received report for up to 30
+days and then deletes it, unless a longer period is required for security,
+abuse prevention, or legal obligations. To ask whether DataXad holds a report
+or request its earlier deletion, email
+[feedback@folocard.com](mailto:feedback@folocard.com).
 
 ## Permissions
 
@@ -121,14 +128,13 @@ Folocard currently does not require a DataXad account for the local Android
 experience and does not provide DataXad cloud storage in this release. If you
 used a legacy Folocard account, cloud backup, or paid service and want to ask
 about historical data or entitlements, contact
-[sam@dataxad.com](mailto:sam@dataxad.com).
+[feedback@folocard.com](mailto:feedback@folocard.com).
 
 ## Purchases
 
-Google Play can process purchases and maintain purchase records under the
-[Google Privacy Policy](https://policies.google.com/privacy). DataXad may
-receive the purchase and entitlement information Google provides to developers,
-but does not receive your full payment-card details from Google Play.
+The current Android release has no in-app products or subscriptions. This
+policy and the Google Play Data safety declaration must be updated before
+Folocard enables billing or collects purchase and entitlement information.
 
 ## Children
 
@@ -140,8 +146,9 @@ authority and consent required by applicable law.
 
 Privacy rights vary by location. To ask about access, correction, deletion, or
 another privacy right involving data held by DataXad, email
-[sam@dataxad.com](mailto:sam@dataxad.com). Most Folocard data is held only on
-your device or by a service you selected, so DataXad may not possess a copy.
+[feedback@folocard.com](mailto:feedback@folocard.com). Most Folocard data is
+held only on your device or by a service you selected, so DataXad may not
+possess a copy.
 
 ## Changes to This Policy
 
@@ -152,4 +159,5 @@ appropriate, in the app or store listing.
 
 ## Contact
 
-Questions or requests: [sam@dataxad.com](mailto:sam@dataxad.com)
+Questions or requests:
+[feedback@folocard.com](mailto:feedback@folocard.com)
