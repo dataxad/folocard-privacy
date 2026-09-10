@@ -13,8 +13,8 @@ Features** below. Features on other platforms may differ.
 Folocard is a privacy-first, first-touch mini CRM. Its core business-card
 capture, text recognition, contact storage, review, and drafting workflows are
 designed to run on hardware you control. This policy explains what stays local,
-which optional actions can send data elsewhere, and the choices available to
-you.
+which optional actions and SDK diagnostics can send data elsewhere, and the
+choices available to you.
 
 ## Data Folocard Stores Locally
 
@@ -51,6 +51,30 @@ storage, and drafting on the device. Public-web research can run in the
 background under your research, source, and assistant settings; it does not
 require a paid network entitlement. Data can leave your device in these
 situations:
+
+### Google ML Kit Diagnostics
+
+Folocard includes Google ML Kit for on-device text recognition and related
+camera features. Google states that ML Kit processes image, video, and text
+inputs locally and does not send those inputs or their results to Google.
+Separately, the SDK sends performance and usage metrics to Google and may
+contact Google for SDK maintenance, models, and compatibility information.
+Google uses these metrics to operate, diagnose, improve, and protect ML Kit.
+See [ML Kit Terms and Privacy](https://developers.google.com/ml-kit/terms).
+
+Google's Android disclosure lists device and app information, installation
+identifiers (and device identifiers for Play-services-based features), latency,
+configuration, input/output sizes, SDK versions, events, and errors. Sizes are
+metadata, not the image or text content. Google's Translate disclosure also
+covers configured languages and Firebase configuration/installation services
+when that SDK operates. Google says the listed Android metrics use HTTPS.
+See [Google's Android SDK disclosure](https://developers.google.com/ml-kit/android-data-disclosure).
+
+These SDK metrics are separate from Folocard's user-shared diagnostic bundles
+and DataXad response reports. Folocard's public-research settings do not provide
+an ML Kit telemetry opt-out. Google's disclosures describe its latest SDKs;
+details can vary with the SDK version and feature in use. Google's handling of
+this information is governed by its [Privacy Policy](https://policies.google.com/privacy).
 
 ### Model Downloads
 
